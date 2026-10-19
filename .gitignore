@@ -6,6 +6,3 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
-
-# случайный мусор
-git
