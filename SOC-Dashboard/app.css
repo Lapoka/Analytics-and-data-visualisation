@@ -1,0 +1,18 @@
+/* Taipy автоматически подхватывает app.css рядом с app.py */
+.taipy-layout { margin-bottom: 1rem; }
+.filter-panel, .kpi-card, .chart-panel {
+  background: rgba(120, 140, 165, .09);
+  border: 1px solid rgba(145, 160, 180, .18);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.filter-panel .taipy-layout { margin-bottom: 0; }
+.filter-panel .taipy-selector, .filter-panel .taipy-input { width: 100%; max-width: 100%; }
+.kpi-card { min-height: 120px; }
+.kpi-card h3 { margin: .5rem 0 0; font-size: 1.9rem; }
+.chart-panel { overflow: hidden; }
+.chart-panel .taipy-chart { width: 100%; }
+@media (max-width: 900px) {
+  .filter-panel, .kpi-card, .chart-panel { padding: .75rem; }
+}

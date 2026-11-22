@@ -1,3 +1,4 @@
+
 # LaTeX
 *.aux
 *.log
@@ -6,3 +7,24 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+temp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Datasets
+*.parquet
+
+# System files
+.DS_Store
+Thumbs.db
